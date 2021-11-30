@@ -1,0 +1,163 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "A basic template that consists of the essential elements that are required to start building a React application",
+  "scripts": {
+    "build": "webpack",
+    "build:dev": "npm run build -- --env.env=dev",
+    "build:dev:watch": "npm run build:dev -- --watch",
+    "build:dev:bundleanalyze": "npm run build:dev -- --env.addons=bundleanalyze",
+    "serve:dev": "webpack-dev-server --env.env=dev --hot",
+    "serve:dev:dashboard": "webpack-dashboard -- webpack-dev-server --hot --env.env=dev --env.addons=dashboard",
+    "build:prod": "npm run build -- -p --env.env=prod",
+    "build:prod:watch": "npm run build:prod -- --watch",
+    "build:prod:bundleanalyze": "npm run build:prod -- --env.addons=bundleanalyze",
+    "serve:prod": "npm run build:prod && live-server ./public",
+    "lint": "eslint .; exit 0",
+    "lint:fix": "eslint . --fix; exit 0",
+    "start": "npm run serve:dev",
+    "test": "echo \"No tests available\"; exit 0",
+    "deploy": "gh-pages -d public"
+  },
+  "release": {
+    "repositoryUrl": "https://github.com/tehalexf/satoolsfactory.git",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "public/CHANGELOG.md"
+        }
+      ],
+      "@semantic-release/git"
+    ],
+    "branch": "master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drminnaar/react-starter.git"
+  },
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "useBuiltIns": "usage",
+          "corejs": 3
+        }
+      ],
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-syntax-dynamic-import",
+      "@babel/plugin-syntax-import-meta",
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-json-strings",
+      [
+        "@babel/plugin-proposal-decorators",
+        {
+          "legacy": true
+        }
+      ],
+      "@babel/plugin-proposal-function-sent",
+      "@babel/plugin-proposal-export-namespace-from",
+      "@babel/plugin-proposal-numeric-separator",
+      "@babel/plugin-proposal-throw-expressions",
+      "@babel/plugin-proposal-export-default-from",
+      "@babel/plugin-proposal-logical-assignment-operators",
+      "@babel/plugin-proposal-optional-chaining",
+      [
+        "@babel/plugin-proposal-pipeline-operator",
+        {
+          "proposal": "minimal"
+        }
+      ],
+      "@babel/plugin-proposal-nullish-coalescing-operator",
+      "@babel/plugin-proposal-do-expressions",
+      "@babel/plugin-proposal-function-bind"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-decorators": "^7.4.0",
+    "@babel/plugin-proposal-do-expressions": "^7.2.0",
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
+    "@babel/plugin-proposal-function-bind": "^7.2.0",
+    "@babel/plugin-proposal-function-sent": "^7.2.0",
+    "@babel/plugin-proposal-json-strings": "^7.2.0",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.2.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.2.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.2.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.3.2",
+    "@babel/plugin-proposal-throw-expressions": "^7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-syntax-import-meta": "^7.2.0",
+    "@babel/polyfill": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "@material-ui/lab": "^3.0.0-alpha.30",
+    "@semantic-release/changelog": "^3.0.3",
+    "@semantic-release/commit-analyzer": "^6.1.0",
+    "@semantic-release/git": "^7.0.11",
+    "@semantic-release/npm": "^5.1.7",
+    "@semantic-release/release-notes-generator": "^7.1.6",
+    "acorn": "^6.1.1",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "blueimp-canvas-to-blob": "^3.14.0",
+    "chunk-manifest-webpack-plugin": "^1.1.2",
+    "clean-webpack-plugin": "^2.0.1",
+    "core-js": "^3.0.1",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.15.3",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-react": "^7.12.4",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^3.0.1",
+    "file-saver": "^2.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "jsoncomp": "^1.6.1",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.11.0",
+    "offline-plugin": "^5.0.6",
+    "pako": "^1.0.10",
+    "react-code-splitting": "^1.2.1",
+    "sass-loader": "^7.1.0",
+    "semantic-release": "^15.13.12",
+    "simple-crypto-js": "^2.0.2",
+    "style-loader": "^0.23.1",
+    "terser-webpack-plugin": "^1.2.3",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack": "^4.19.0",
+    "webpack-bundle-analyzer": "^3.1.0",
+    "webpack-chunk-hash": "^0.6.0",
+    "webpack-cli": "^3.1.1",
+    "webpack-dashboard": "^3.0.0",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "Base64": "^1.0.2",
+    "classnames": "latest",
+    "d3": "^5.9.2",
+    "d3-interpolate": "latest",
+    "firebase": "^5.10.0",
+    "flatted": "^2.0.0",
+    "grpc": "^1.19.0",
+    "intro.js": "^2.9.3",
+    "intro.js-react": "^0.2.0",
+    "lovefield": "^2.1.12",
+    "normalize.css": "^8.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-ga": "^2.5.7"
+  }
+}
