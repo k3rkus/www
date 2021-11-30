@@ -24,9 +24,12 @@
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
-      ["@semantic-release/changelog", {
-        "changelogFile": "public/CHANGELOG.md"
-      }],
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "public/CHANGELOG.md"
+        }
+      ],
       "@semantic-release/git"
     ],
     "branch": "master"
@@ -130,22 +133,25 @@
     "style-loader": "^0.23.1",
     "terser-webpack-plugin": "^1.2.3",
     "uglifyjs-webpack-plugin": "^2.1.2",
-    "webpack": "^4.29.6",
+    "webpack": "^4.19.0",
     "webpack-bundle-analyzer": "^3.1.0",
     "webpack-chunk-hash": "^0.6.0",
-    "webpack-cli": "^3.3.0",
+    "webpack-cli": "^3.1.1",
     "webpack-dashboard": "^3.0.0",
-    "webpack-dev-server": "^3.2.1",
+    "webpack-dev-server": "^3.11.3",
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
+    "@grpc/grpc-js": "^1.4.4",
     "@material-ui/core": "^3.9.2",
     "@material-ui/icons": "^3.0.2",
     "Base64": "^1.0.2",
+    "classnames": "latest",
     "d3": "^5.9.2",
     "d3-interpolate": "latest",
     "firebase": "^5.10.0",
     "flatted": "^2.0.0",
+    "grpc": "^1.19.0",
     "intro.js": "^2.9.3",
     "intro.js-react": "^0.2.0",
     "lovefield": "^2.1.12",
@@ -153,7 +159,6 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
-    "react-ga": "^2.5.7",
-    "classnames": "latest"
+    "react-ga": "^2.5.7"
   }
 }
