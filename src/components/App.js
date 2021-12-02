@@ -38,6 +38,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Hidden from '@material-ui/core/Hidden';
 
 import globalData from './data';
+import { ContactSupportOutlined } from '@material-ui/icons';
 
 const drawerWidth = 260;
 
@@ -454,8 +455,7 @@ class App extends Component {
         });
       });
       return Object.keys(recipesByMachineClass).map(key =>
-        <SidebarButton appObject={this} label={machineClassPlural[key]} key={key}
-          items={recipesByMachineClass[key]}/>
+        <SidebarButton appObject={this} label={machineClassPlural[key]} key={key} items={recipesByMachineClass[key]}/>
       );
     }
 
@@ -511,8 +511,8 @@ class App extends Component {
         <List>
           <Typography variant="h5" className={classes.drawerTitle}>Nodes</Typography>
           {this.generateNodeList()}
-          {this.generateSpringList()}
           {this.generateContainerList()}
+          {this.generateSpringList()}
         </List>
         <Divider/>
 
