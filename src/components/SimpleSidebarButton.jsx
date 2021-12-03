@@ -72,7 +72,7 @@ class SimpleSidebarButton extends React.Component {
                         {
                             open ? <RemoveCircleIcon/> : <AddCircleOutlineIcon/>
                         }
-                    <div className={classes.label}>Logistics</div>
+                    <div className={classes.label}>Logistic</div>
                 </Button>
                 <Popper className={classes.popper} open={open} anchorEl={anchorEl} transition placement="right-start">
                     {({TransitionProps, placement}) => (
@@ -87,6 +87,7 @@ class SimpleSidebarButton extends React.Component {
                                         {Object.keys(listItems).map(key => {
                                             const returnDivList = [];
                                             //Keep this as miner
+                                            //,'Water Pump','Oil Pump'
                                             if (!['Miner', 'Logistic'].includes(key)) {
                                                 listItems[key].forEach(resource => {
                                                     returnDivList.push(<MenuItem onClick={() => {
@@ -139,6 +140,32 @@ class SimpleSidebarButton extends React.Component {
                                                     </MenuItem>);
                                                 });
                                             }
+                                            // if (['Water Pump'].includes(key) || ['Oil Pump'].includes(key)) {
+                                            //     listItems[key].forEach(resource => {
+                                            //         returnDivList.push(<MenuItem onClick={() => {
+                                            //             const machine_nodes = appObject.state.machine_node.machine_node;
+                                            //             machine_nodes.sort((node1, node2) => node1.rank - node2.rank);
+                                            //             const upgrades = machine_nodes.filter(node => node.machine_class.id === resource.machine_class.id && resource.name === node.name);
+                                            //             const instance = upgrades[0];
+                                            //             appObject.graphSvg.addNode(
+                                            //                 {
+                                            //                     data: {recipe: resource},
+                                            //                     machine: resource.machine_class,
+                                            //                     allowedIn: [],
+                                            //                     allowedOut: [],
+                                            //                     instance: instance,
+                                            //                     upgradeTypes: upgrades
+                                            //                 }
+                                            //             );
+                                            //             this.handleClose();
+                                            //             appObject.setState({mobileOpen: false})
+                                            //         }}
+                                            //                                      key={resource.name}>
+                                            //             <img src={resource.icon}
+                                            //                  className={classes.itemListIcon}/>{resource.machine_class.name}
+                                            //         </MenuItem>);
+                                            //     });
+                                            // }
                                             return returnDivList;
                                         })}
                                     </MenuList>

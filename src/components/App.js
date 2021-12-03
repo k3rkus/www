@@ -465,6 +465,7 @@ class App extends Component {
         const thisList = springByClass[spring.spring_type.name] || [];
         thisList.push(spring);
         springByClass[spring.spring_type.name] = thisList;
+
       });
 
       // Manually handle splitters and mergers
@@ -476,6 +477,19 @@ class App extends Component {
           <SimpleSidebarButton label="Logistics" appObject={this} listItems={springByClass}/>
         </React.Fragment>
 
+      );
+    }
+
+    generateMinerList() {
+      this.generateUnlocksList();
+      const springByClass = {};
+      this.state.spring && this.state.spring.spring.forEach(spring => {
+        const thisList = springByClass[spring.spring_type.name] || [];
+        thisList.push(spring);
+        springByClass[spring.spring_type.name] = thisList;
+      });
+      return (
+        <NestedSidebarButton label='Extraction' listItems={springByClass} appObject={this}/>
       );
     }
 
@@ -491,19 +505,7 @@ class App extends Component {
         <div>hello</div>
       );
     }
-
-    generateSpringList() {
-      this.generateUnlocksList();
-      const springByClass = {};
-      this.state.spring && this.state.spring.spring.forEach(spring => {
-        const thisList = springByClass[spring.spring_type.name] || [];
-        thisList.push(spring);
-        springByClass[spring.spring_type.name] = thisList;
-      });
-      return (
-        <NestedSidebarButton label='Miners' listItems={springByClass} appObject={this}/>
-      );
-    }
+    
 
     drawerContents = () => {
       const classes = this.props.classes;
@@ -512,7 +514,7 @@ class App extends Component {
           <Typography variant="h5" className={classes.drawerTitle}>Nodes</Typography>
           {this.generateNodeList()}
           {this.generateContainerList()}
-          {this.generateSpringList()}
+          {this.generateMinerList()}
         </List>
         <Divider/>
 
