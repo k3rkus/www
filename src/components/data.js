@@ -1319,210 +1319,208 @@ const globalData = {
             'id': 12
         }
     ],
-  'recipe': [
-      {
-          'name': 'Iron Ingot',
-          'inputs': [
-              {
-                  'item_id': 46,
-                  'quantity': 1
-              }
-          ],
-          'machine_class_id': 0,
-          'item_id': 0,
-          'time': 2,
-          'power': 4,
-          'quantity': 1,
-          'hidden': false,
-          'id': 0
-      },
-      {
-          'name': 'Copper Ingot',
-          'inputs': [
-              {
-                  'item_id': 47,
-                  'quantity': 1
-              }
-          ],
-          'machine_class_id': 0,
-          'item_id': 1,
-          'time': 2,
-          'quantity': 1,
-          'hidden': false,
-          'id': 1
-      },
-      {
-          'name': 'Caterium Ingot',
-          'inputs': [
-              {
-                  'item_id': 49,
-                  'quantity': 3
-              }
-          ],
-          'machine_class_id': 0,
-          'item_id': 2,
-          'time': 4,
-          'quantity': 1,
-          'hidden': false,
-          'id': 2
-      },
-      {
-          'name': 'S.A.M. Ingot',
-          'inputs': [
-              {
-                  'item_id': 55,
-                  'quantity': 6
-              }
-          ],
-          'machine_class_id': 0,
-          'item_id': 3,
-          'time': 12,
-          'quantity': 1,
-          'hidden': false,
-          'id': 3
-      },
+    'recipe': [
+        {
+            'name': 'Iron Ingot',
+            'inputs': [
+                {
+                    'item_id': 46,
+                    'quantity': 1
+                }
+            ],
+            'machine_class_id': 0,
+            'item_id': 0,
+            'time': 2,
+            'power': 4,
+            'quantity': 1,
+            'hidden': false,
+            'id': 0
+        },
+        {
+            'name': 'Copper Ingot',
+            'inputs': [
+                {
+                    'item_id': 47,
+                    'quantity': 1
+                }
+            ],
+            'machine_class_id': 0,
+            'item_id': 1,
+            'time': 2,
+            'quantity': 1,
+            'hidden': false,
+            'id': 1
+        },
+        {
+            'name': 'Caterium Ingot',
+            'inputs': [
+                {
+                    'item_id': 49,
+                    'quantity': 3
+                }
+            ],
+            'machine_class_id': 0,
+            'item_id': 2,
+            'time': 4,
+            'quantity': 1,
+            'hidden': false,
+            'id': 2
+        },
+        {
+            'name': 'S.A.M. Ingot',
+            'inputs': [
+                {
+                    'item_id': 55,
+                    'quantity': 6
+                }
+            ],
+            'machine_class_id': 0,
+            'item_id': 3,
+            'time': 12,
+            'quantity': 1,
+            'hidden': false,
+            'id': 3
+        },
 
-      // FOUNDRIES
-      {
-        'name': 'Iron Alloy Ingot (Alt.)',
-        'inputs': [
-            {
-                'item_id': 46,
-                'quantity': 2
-            },
-            {
-                'item_id': 47,
-                'quantity': 2
-            }
-        ],
-        'machine_class_id': 1,
-        'item_id': 0,
-        'time': 6,
-        'quantity': 5,
-        'hidden': false,
-        'player_unlock_id': 5,
-        'id': 4
-    },
-    {
-      'name': 'Copper Alloy Ingot (Alt.)',
-      'inputs': [
-          {
-              'item_id': 46,
-              'quantity': 5
-          },
-          {
-              'item_id': 47,
-              'quantity': 10
-          }
-      ],
-      'machine_class_id': 1,
-      'item_id': 1,
-      'time': 12,
-      'quantity': 20,
-      'hidden': false,
-      'player_unlock_id': 5,
-      'id': 5
-  },
-    {
-        'name': 'Steel Ingot',
-        'inputs': [
-            {
-                'item_id': 46,
-                'quantity': 3
-            },
-            {
-                'item_id': 50,
-                'quantity': 3
-            }
-        ],
-        'machine_class_id': 1,
-        'item_id': 4,
-        'time': 4,
-        'quantity': 3,
-        'hidden': false,
-        'id': 6
-    },
-    {
-        'name': 'Solid Steel Ingot (Alt.)',
-        'inputs': [
-            {
-                'item_id': 0,
-                'quantity': 2
-            },
-            {
-                'item_id': 50,
-                'quantity': 2
-            }
-        ],
-        'machine_class_id': 1,
-        'item_id': 4,
-        'time': 3,
-        'quantity': 3,
-        'hidden': false,
-        'player_unlock_id': 10,
-        'id': 7
-    },
-    {
-        'name': 'Compacted Steel Ingot (Alt.)',
-        'inputs': [
-            {
-                'item_id': 46,
-                'quantity': 6
-            },
-            {
-                'item_id': 28,
-                'quantity': 3
-            }
-        ],
-        'machine_class_id': 1,
-        'item_id': 4,
-        'time': 3,
-        'quantity': 3,
-        'hidden': false,
-        'player_unlock_id': 10,
-        'id': 8
-    },
-    {
-        'name': 'Coke Steel Ingot (Alt.)',
-        'inputs': [
-            {
-                'item_id': 46,
-                'quantity': 15
-            },
-            {
-                'item_id': 45,
-                'quantity': 15
-            }
-        ],
-        'machine_class_id': 1,
-        'item_id': 4,
-        'time': 3,
-        'quantity': 3,
-        'hidden': false,
-        'player_unlock_id': 10,
-        'id': 9
-    },
-    {
-        'name': 'Aluminium Ingot',
-        'inputs': [
-            {
-                'item_id': 28,
-                'quantity': 7
-            },
-            {
-                'item_id': 30,
-                'quantity': 6
-            }
-        ],
-        'machine_class_id': 1,
-        'item_id': 5,
-        'time': 4,
-        'quantity': 2,
-        'hidden': false,
-        'id': 10
-    },
-
-
+    // FOUNDRIES
+        {
+            'name': 'Iron Alloy Ingot (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 46,
+                    'quantity': 2
+                },
+                {
+                    'item_id': 47,
+                    'quantity': 2
+                }
+            ],
+            'machine_class_id': 1,
+            'item_id': 0,
+            'time': 6,
+            'quantity': 5,
+            'hidden': false,
+            'player_unlock_id': 5,
+            'id': 4
+        },
+        {
+            'name': 'Copper Alloy Ingot (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 46,
+                    'quantity': 5
+                },
+                {
+                    'item_id': 47,
+                    'quantity': 10
+                }
+            ],
+            'machine_class_id': 1,
+            'item_id': 1,
+            'time': 12,
+            'quantity': 20,
+            'hidden': false,
+            'player_unlock_id': 5,
+            'id': 5
+        },
+        {
+            'name': 'Steel Ingot',
+            'inputs': [
+                {
+                    'item_id': 46,
+                    'quantity': 3
+                },
+                {
+                    'item_id': 50,
+                    'quantity': 3
+                }
+            ],
+            'machine_class_id': 1,
+            'item_id': 4,
+            'time': 4,
+            'quantity': 3,
+            'hidden': false,
+            'id': 6
+        },
+        {
+            'name': 'Solid Steel Ingot (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 0,
+                    'quantity': 2
+                },
+                {
+                    'item_id': 50,
+                    'quantity': 2
+                }
+            ],
+            'machine_class_id': 1,
+            'item_id': 4,
+            'time': 3,
+            'quantity': 3,
+            'hidden': false,
+            'player_unlock_id': 10,
+            'id': 7
+        },
+        {
+            'name': 'Compacted Steel Ingot (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 46,
+                    'quantity': 6
+                },
+                {
+                    'item_id': 28,
+                    'quantity': 3
+                }
+            ],
+            'machine_class_id': 1,
+            'item_id': 4,
+            'time': 3,
+            'quantity': 3,
+            'hidden': false,
+            'player_unlock_id': 10,
+            'id': 8
+        },
+        {
+            'name': 'Coke Steel Ingot (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 46,
+                    'quantity': 15
+                },
+                {
+                    'item_id': 45,
+                    'quantity': 15
+                }
+            ],
+            'machine_class_id': 1,
+            'item_id': 4,
+            'time': 3,
+            'quantity': 3,
+            'hidden': false,
+            'player_unlock_id': 10,
+            'id': 9
+        },
+        {
+            'name': 'Aluminium Ingot',
+            'inputs': [
+                {
+                    'item_id': 28,
+                    'quantity': 7
+                },
+                {
+                    'item_id': 30,
+                    'quantity': 6
+                }
+            ],
+            'machine_class_id': 1,
+            'item_id': 5,
+            'time': 4,
+            'quantity': 2,
+            'hidden': false,
+            'id': 10
+        },
 
 
 
@@ -1537,921 +1535,942 @@ const globalData = {
 
 
 
-      {
-          'name': 'Iron Plate',
-          'inputs': [
-              {
-                  'item_id': 4,
-                  'quantity': 3
-              }
-          ],
-          'machine_class_id': 2,
-          'item_id': 6,
-          'time': 6,
-          'quantity': 2,
-          'hidden': false,
-          'id': 11
-      },
-      {
-          'name': 'Iron Rod',
-          'inputs': [
-              {
-                  'item_id': 4,
-                  'quantity': 1
-              }
-          ],
-          'machine_class_id': 2,
-          'item_id': 7,
-          'time': 4,
-          'quantity': 1,
-          'hidden': false,
-          'id': 12
-      },
-      {
-          'name': 'Screw',
-          'inputs': [
-              {
-                  'item_id': 7,
-                  'quantity': 1
-              }
-          ],
-          'machine_class_id': 2,
-          'item_id': 8,
-          'time': 4,
-          'quantity': 4,
-          'hidden': false,
-          'id': 13
-      },
-      {
-          'name': 'Cast Screw (Alt.)',
-          'inputs': [
-              {
-                  'item_id': 0,
-                  'quantity': 5
-              }
-          ],
-          'machine_class_id': 2,
-          'item_id': 8,
-          'time': 24,
-          'quantity': 20,
-          'hidden': true,
-          'player_unlock_id': 11,
-          'id': 14
-      },
-      {
-          'name': 'Steel Screw (Alt.)',
-          'inputs': [
-              {
-                  'item_id': 15,
-                  'quantity': 1
-              }
-          ],
-          'machine_class_id': 2,
-          'item_id': 8,
-          'time': 12,
-          'quantity': 54,
-          'hidden': true,
-          'player_unlock_id': 11,
-          'id': 15
-      },
-      {
-          'name': 'Wire',
-          'inputs': [
-              {
-                  'item_id': 5,
-                  'quantity': 1
-              }
-          ],
-          'machine_class_id': 2,
-          'item_id': 9,
-          'time': 4,
-          'quantity': 2,
-          'hidden': false,
-          'id': 14
-      },
-      {
-          'name': 'Iron Wire (Alt.)',
-          'inputs': [
-              {
-                  'item_id': 4,
-                  'quantity': 5
-              }
-          ],
-          'machine_class_id': 2,
-          'item_id': 9,
-          'time': 24,
-          'quantity': 9,
-          'hidden': true,
-          'player_unlock_id': 6,
-          'id': 15
-      },
-      {
-          'name': 'Caterium Wire (Alt.)',
-          'inputs': [
-              {
-                  'item_id': 16,
-                  'quantity': 1
-              }
-          ],
-          'machine_class_id': 2,
-          'item_id': 9,
-          'time': 8,
-          'quantity': 4,
-          'hidden': true,
-          'player_unlock_id': 2,
-          'id': 16
-      },
-      {
-          'name': 'Cable',
-          'inputs': [
-              {
-                  'item_id': 9,
-                  'quantity': 2
-              }
-          ],
-          'machine_class_id': 2,
-          'item_id': 10,
-          'time': 4,
-          'quantity': 1,
-          'hidden': false,
-          'id': 17
-      },
-      {
-          'name': 'Concrete',
-          'inputs': [
-              {
-                  'item_id': 2,
-                  'quantity': 3
-              }
-          ],
-          'machine_class_id': 2,
-          'item_id': 11,
-          'time': 4,
-          'quantity': 1,
-          'hidden': false,
-          'id': 18
-      },
-      {
-          'name': 'Reinforced Iron Plate',
-          'inputs': [
-              {
-                  'item_id': 6,
-                  'quantity': 6
-              },
-              {
-                  'item_id': 8,
-                  'quantity': 12
-              }
-          ],
-          'machine_class_id': 3,
-          'item_id': 20,
-          'time': 12,
-          'quantity': 1,
-          'hidden': false,
-          'id': 19
-      },
-      {
-          'name': 'Reinforced Iron Plate (Alt.)',
-          'inputs': [
-              {
-                  'item_id': 6,
-                  'quantity': 16
-              },
-              {
-                  'item_id': 8,
-                  'quantity': 250
-              }
-          ],
-          'machine_class_id': 3,
-          'item_id': 20,
-          'time': 12,
-          'quantity': 3,
-          'hidden': true,
-          'player_unlock_id': 0,
-          'id': 20
-      },
-      {
-          'name': 'Stitched Iron Plate (Alt.)',
-          'inputs': [
-              {
-                  'item_id': 6,
-                  'quantity': 10
-              },
-              {
-                  'item_id': 9,
-                  'quantity': 26
-              }
-          ],
-          'machine_class_id': 3,
-          'item_id': 20,
-          'time': 32,
-          'quantity': 3,
-          'hidden': true,
-          'player_unlock_id': 1,
-          'id': 21
-      },
-      {
-          'name': 'Rotor',
-          'inputs': [
-              {
-                  'item_id': 7,
-                  'quantity': 5
-              },
-              {
-                  'item_id': 8,
-                  'quantity': 25
-              }
-          ],
-          'machine_class_id': 3,
-          'item_id': 14,
-          'time': 15,
-          'quantity': 1,
-          'hidden': false,
-          'id': 22
-      },
-      {
-          'name': 'Rotor (Alt.)',
-          'inputs': [
-              {
-                  'item_id': 20,
-                  'quantity': 2
-              },
-              {
-                  'item_id': 9,
-                  'quantity': 12
-              }
-          ],
-          'machine_class_id': 3,
-          'item_id': 14,
-          'time': 12,
-          'quantity': 1,
-          'hidden': true,
-          'player_unlock_id': 8,
-          'id': 23
-      },
-      {
-          'name': 'Modular Frame',
-          'inputs': [
-              {
-                  'item_id': 20,
-                  'quantity': 3
-              },
-              {
-                  'item_id': 7,
-                  'quantity': 12
-              }
-          ],
-          'machine_class_id': 3,
-          'item_id': 21,
-          'time': 60,
-          'quantity': 2,
-          'hidden': false,
-          'id': 24
-      },
-      {
-          'name': 'Modular Frame (Alt.)',
-          'inputs': [
-              {
-                  'item_id': 20,
-                  'quantity': 2
-              },
-              {
-                  'item_id': 20,
-                  'quantity': 10
-              }
-          ],
-          'machine_class_id': 3,
-          'item_id': 21,
-          'time': 60,
-          'quantity': 3,
-          'hidden': true,
-          'player_unlock_id': 7,
-          'id': 25
-      },
-      {
-          'name': 'Encased Industrial Beam',
-          'inputs': [
-              {
-                  'item_id': 15,
-                  'quantity': 4
-              },
-              {
-                  'item_id': 11,
-                  'quantity': 5
-              }
-          ],
-          'machine_class_id': 3,
-          'item_id': 21,
-          'time': 10,
-          'quantity': 1,
-          'hidden': false,
-          'id': 26
-      },
-      {
-          'name': 'Encased Industrial Beam (Alt.)',
-          'inputs': [
-              {
-                  'item_id': 20,
-                  'quantity': 7
-              },
-              {
-                  'item_id': 11,
-                  'quantity': 5
-              }
-          ],
-          'machine_class_id': 3,
-          'item_id': 21,
-          'time': 15,
-          'quantity': 1,
-          'hidden': true,
-          'player_unlock_id': 3,
-          'id': 27
-      },
-      {
-          'name': 'Heavy Modular Frame',
-          'inputs': [
-              {
-                  'item_id': 21,
-                  'quantity': 5
-              },
-              {
-                  'item_id': 21,
-                  'quantity': 5
-              },
-              {
-                  'item_id': 20,
-                  'quantity': 15
-              },
-              {
-                  'item_id': 8,
-                  'quantity': 100
-              }
-          ],
-          'machine_class_id': 4,
-          'item_id': 23,
-          'time': 30,
-          'quantity': 1,
-          'hidden': false,
-          'id': 28
-      },
-      {
-          'name': 'Heavy Modular Frame (Alt.)',
-          'inputs': [
-              {
-                  'item_id': 7,
-                  'quantity': 8
-              },
-              {
-                  'item_id': 21,
-                  'quantity': 10
-              },
-              {
-                  'item_id': 20,
-                  'quantity': 36
-              },
-              {
-                  'item_id': 11,
-                  'quantity': 22
-              }
-          ],
-          'machine_class_id': 4,
-          'item_id': 23,
-          'time': 64,
-          'quantity': 3,
-          'hidden': true,
-          'player_unlock_id': 4,
-          'id': 29
-      },
-      {
-          'name': 'Steel Beam',
-          'inputs': [
-              {
-                  'item_id': 18,
-                  'quantity': 4
-              }
-          ],
-          'machine_class_id': 2,
-          'item_id': 15,
-          'time': 4,
-          'quantity': 1,
-          'hidden': false,
-          'id': 30
-      },
-      {
-          'name': 'Steel Pipe',
-          'inputs': [
-              {
-                  'item_id': 18,
-                  'quantity': 3
-              }
-          ],
-          'machine_class_id': 2,
-          'item_id': 20,
-          'time': 6,
-          'quantity': 2,
-          'hidden': false,
-          'id': 31
-      },
-      {
-          'name': 'Quickwire',
-          'inputs': [
-              {
-                  'item_id': 16,
-                  'quantity': 1
-              }
-          ],
-          'machine_class_id': 2,
-          'item_id': 17,
-          'time': 5,
-          'quantity': 5,
-          'hidden': false,
-          'id': 32
-      },
-      {
-          'name': 'Quickwire (Alt.)',
-          'inputs': [
-              {
-                  'item_id': 16,
-                  'quantity': 1
-              },
-              {
-                  'item_id': 5,
-                  'quantity': 2
-              }
-          ],
-          'machine_class_id': 3,
-          'item_id': 17,
-          'time': 8,
-          'quantity': 12,
-          'hidden': true,
-          'player_unlock_id': 12,
-          'id': 33
-      },
-      {
-          'name': 'Motor',
-          'inputs': [
-              {
-                  'item_id': 14,
-                  'quantity': 2
-              },
-              {
-                  'item_id': 22,
-                  'quantity': 2
-              }
-          ],
-          'machine_class_id': 3,
-          'item_id': 24,
-          'time': 12,
-          'quantity': 1,
-          'hidden': false,
-          'id': 34
-      },
-      {
-          'name': 'Biofuel',
-          'inputs': [
-              {
-                  'item_id': 50,
-                  'quantity': 4
-              }
-          ],
-          'machine_class_id': 2,
-          'item_id': 51,
-          'time': 4,
-          'quantity': 2,
-          'hidden': false,
-          'id': 35
-      },
-      {
-          'name': 'A.I. Limiter',
-          'inputs': [
-              {
-                  'item_id': 35,
-                  'quantity': 1
-              },
-              {
-                  'item_id': 17,
-                  'quantity': 18
-              }
-          ],
-          'machine_class_id': 3,
-          'item_id': 37,
-          'time': 12,
-          'quantity': 1,
-          'hidden': false,
-          'id': 36
-      },
-      {
-          'name': 'Circuit Board',
-          'inputs': [
-              {
-                  'item_id': 9,
-                  'quantity': 12
-              },
-              {
-                  'item_id': 32,
-                  'quantity': 6
-              }
-          ],
-          'machine_class_id': 3,
-          'item_id': 35,
-          'time': 12,
-          'quantity': 1,
-          'hidden': false,
-          'id': 37
-      },
-      {
-          'name': 'Circuit Board (Alt.)',
-          'inputs': [
-              {
-                  'item_id': 34,
-                  'quantity': 16
-              },
-              {
-                  'item_id': 9,
-                  'quantity': 24
-              }
-          ],
-          'machine_class_id': 3,
-          'item_id': 35,
-          'time': 24,
-          'quantity': 3,
-          'player_unlock_id': 14,
-          'hidden': false,
-          'id': 38
-      },
-      {
-          'name': 'Caterium Circuit Board (Alt.)',
-          'inputs': [
-              {
-                  'item_id': 32,
-                  'quantity': 12
-              },
-              {
-                  'item_id': 17,
-                  'quantity': 32
-              }
-          ],
-          'machine_class_id': 3,
-          'item_id': 35,
-          'time': 24,
-          'quantity': 3,
-          'player_unlock_id': 15,
-          'hidden': false,
-          'id': 39
-      },
-      {
-          'name': 'Rubber Cable',
-          'inputs': [
-              {
-                  'item_id': 9,
-                  'quantity': 3
-              },
-              {
-                  'item_id': 34,
-                  'quantity': 2
-              }
-          ],
-          'machine_class_id': 3,
-          'item_id': 10,
-          'time': 8,
-          'quantity': 10,
-          'player_unlock_id': 13,
-          'hidden': false,
-          'id': 40
-      },
-      {
-          'name': 'Computer',
-          'inputs': [
-              {
-                  'item_id': 35,
-                  'quantity': 5
-              },
-              {
-                  'item_id': 10,
-                  'quantity': 12
-              },
-              {
-                  'item_id': 32,
-                  'quantity': 18
-              },
-              {
-                  'item_id': 8,
-                  'quantity': 60
-              }
-          ],
-          'machine_class_id': 4,
-          'item_id': 36,
-          'time': 32,
-          'quantity': 1,
-          'hidden': false,
-          'id': 41
-      },
-      {
-          'name': 'Caterium Computer',
-          'inputs': [
-              {
-                  'item_id': 17,
-                  'quantity': 112
-              },
-              {
-                  'item_id': 35,
-                  'quantity': 10
-              },
-              {
-                  'item_id': 34,
-                  'quantity': 48
-              }
-          ],
-          'machine_class_id': 4,
-          'item_id': 36,
-          'time': 64,
-          'quantity': 3,
-          'player_unlock_id': 16,
-          'hidden': false,
-          'id': 42
-      },
-      {
-          'name': 'Supercomputer',
-          'inputs': [
-              {
-                  'item_id': 36,
-                  'quantity': 2
-              },
-              {
-                  'item_id': 37,
-                  'quantity': 2
-              },
-              {
-                  'item_id': 39,
-                  'quantity': 3
-              },
-              {
-                  'item_id': 32,
-                  'quantity': 21
-              }
-          ],
-          'machine_class_id': 4,
-          'item_id': 38,
-          'time': 32,
-          'quantity': 1,
-          'hidden': false,
-          'id': 43
-      },
-      {
-          'name': 'High-Speed Connector',
-          'inputs': [
-              {
-                  'item_id': 17,
-                  'quantity': 40
-              },
-              {
-                  'item_id': 10,
-                  'quantity': 10
-              },
-              {
-                  'item_id': 32,
-                  'quantity': 6
-              }
-          ],
-          'machine_class_id': 4,
-          'item_id': 39,
-          'time': 24,
-          'quantity': 1,
-          'hidden': false,
-          'id': 44
-      },
-      {
-          'name': 'Fuel',
-          'inputs': [
-              {
-                  'item_id': 25,
-                  'quantity': 8
-              }
-          ],
-          'machine_class_id': 5,
-          'item_id': 33,
-          'time': 8,
-          'quantity': 5,
-          'hidden': false,
-          'id': 45
-      },
-      {
-          'name': 'Plastic',
-          'inputs': [
-              {
-                  'item_id': 25,
-                  'quantity': 4
-              }
-          ],
-          'machine_class_id': 5,
-          'item_id': 32,
-          'time': 8,
-          'quantity': 3,
-          'hidden': false,
-          'id': 46
-      },
-      {
-          'name': 'Rubber',
-          'inputs': [
-              {
-                  'item_id': 25,
-                  'quantity': 4
-              }
-          ],
-          'machine_class_id': 5,
-          'item_id': 34,
-          'time': 8,
-          'quantity': 4,
-          'hidden': false,
-          'id': 47
-      },
-      {
-          'name': 'Stator',
-          'inputs': [
-              {
-                  'item_id': 20,
-                  'quantity': 3
-              },
-              {
-                  'item_id': 9,
-                  'quantity': 10
-              }
-          ],
-          'machine_class_id': 3,
-          'item_id': 22,
-          'time': 10,
-          'quantity': 1,
-          'hidden': false,
-          'id': 48
-      },
-      {
-          'name': 'Stator (Alt.)',
-          'inputs': [
-              {
-                  'item_id': 20,
-                  'quantity': 6
-              },
-              {
-                  'item_id': 17,
-                  'quantity': 25
-              }
-          ],
-          'machine_class_id': 3,
-          'item_id': 22,
-          'time': 20,
-          'quantity': 3,
-          'player_unlock_id': 9,
-          'hidden': false,
-          'id': 49
-      },
-      {
-          'name': 'Battery',
-          'inputs': [
-              {
-                  'item_id': 42,
-                  'quantity': 8
-              },
-              {
-                  'item_id': 27,
-                  'quantity': 20
-              },
-              {
-                  'item_id': 32,
-                  'quantity': 9
-              },
-              {
-                  'item_id': 9,
-                  'quantity': 24
-              }
-          ],
-          'machine_class_id': 4,
-          'item_id': 46,
-          'time': 32,
-          'quantity': 3,
-          'hidden': false,
-          'id': 50
-      },
-      {
-          'name': 'Compacted Coal (Alt.)',
-          'inputs': [
-              {
-                  'item_id': 3,
-                  'quantity': 3
-              },
-              {
-                  'item_id': 27,
-                  'quantity': 3
-              }
-          ],
-          'machine_class_id': 3,
-          'item_id': 53,
-          'time': 6,
-          'quantity': 3,
-          'player_unlock_id': 17,
-          'hidden': false,
-          'id': 51
-      },
-      {
-          'name': 'Silica (Alt.)',
-          'inputs': [
-              {
-                  'item_id': 26,
-                  'quantity': 4
-              },
-              {
-                  'item_id': 2,
-                  'quantity': 2
-              }
-          ],
-          'machine_class_id': 3,
-          'item_id': 30,
-          'time': 8,
-          'quantity': 9,
-          'player_unlock_id': 18,
-          'hidden': false,
-          'id': 52
-      },
-      {
-          'name': 'Quartz Crystal',
-          'inputs': [
-              {
-                  'item_id': 26,
-                  'quantity': 2
-              }
-          ],
-          'machine_class_id': 2,
-          'item_id': 55,
-          'time': 4,
-          'quantity': 1,
-          'hidden': false,
-          'id': 53
-      },
-      {
-          'name': 'Quantum Crystal',
-          'inputs': [
-              {
-                  'item_id': 55,
-                  'quantity': 6
-              },
-              {
-                  'item_id': 56,
-                  'quantity': 12
-              }
-          ],
-          'machine_class_id': 3,
-          'item_id': 47,
-          'time': 24,
-          'quantity': 1,
-          'hidden': false,
-          'id': 54
-      },
-      {
-          'name': 'Crystal Oscillator (Alt.)',
-          'inputs': [
-              {
-                  'item_id': 55,
-                  'quantity': 20
-              },
-              {
-                  'item_id': 34,
-                  'quantity': 24
-              },
-              {
-                  'item_id': 37,
-                  'quantity': 1
-              }
-          ],
-          'machine_class_id': 4,
-          'item_id': 54,
-          'time': 64,
-          'quantity': 1,
-          'player_unlock_id': 19,
-          'hidden': false,
-          'id': 55
-      },
-      {
-          'name': 'Crystal Oscillator',
-          'inputs': [
-              {
-                  'item_id': 55,
-                  'quantity': 10
-              },
-              {
-                  'item_id': 10,
-                  'quantity': 14
-              },
-              {
-                  'item_id': 20,
-                  'quantity': 4
-              }
-          ],
-          'machine_class_id': 4,
-          'item_id': 54,
-          'time': 32,
-          'quantity': 1,
-          'hidden': false,
-          'id': 56
-      }
-  ]
+
+        // CONSTRUCTOR
+        {
+            'name': 'Iron Plate',
+            'inputs': [
+                {
+                    'item_id': 4,
+                    'quantity': 3
+                }
+            ],
+            'machine_class_id': 2,
+            'item_id': 6,
+            'time': 6,
+            'quantity': 2,
+            'hidden': false,
+            'id': 11
+        },
+        {
+            'name': 'Iron Rod',
+            'inputs': [
+                {
+                    'item_id': 0,
+                    'quantity': 1
+                }
+            ],
+            'machine_class_id': 2,
+            'item_id': 7,
+            'time': 4,
+            'quantity': 1,
+            'hidden': false,
+            'id': 12
+        },
+        {
+            'name': 'Steel Rod (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 4,
+                    'quantity': 1
+                }
+            ],
+            'machine_class_id': 2,
+            'item_id': 7,
+            'time': 5,
+            'quantity': 4,
+            'hidden': false,
+            'id': 12
+        },
+
+        {
+            'name': 'Screw',
+            'inputs': [
+                {
+                    'item_id': 7,
+                    'quantity': 1
+                }
+            ],
+            'machine_class_id': 2,
+            'item_id': 8,
+            'time': 4,
+            'quantity': 4,
+            'hidden': false,
+            'id': 13
+        },
+        {
+            'name': 'Cast Screw (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 0,
+                    'quantity': 5
+                }
+            ],
+            'machine_class_id': 2,
+            'item_id': 8,
+            'time': 24,
+            'quantity': 20,
+            'hidden': true,
+            'player_unlock_id': 11,
+            'id': 14
+        },
+        {
+            'name': 'Steel Screw (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 15,
+                    'quantity': 1
+                }
+            ],
+            'machine_class_id': 2,
+            'item_id': 8,
+            'time': 12,
+            'quantity': 52,
+            'hidden': true,
+            'player_unlock_id': 11,
+            'id': 15
+        },
+        {
+            'name': 'Wire',
+            'inputs': [
+                {
+                    'item_id': 1,
+                    'quantity': 1
+                }
+            ],
+            'machine_class_id': 2,
+            'item_id': 9,
+            'time': 4,
+            'quantity': 2,
+            'hidden': false,
+            'id': 14
+        },
+        {
+            'name': 'Iron Wire (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 0,
+                    'quantity': 5
+                }
+            ],
+            'machine_class_id': 2,
+            'item_id': 9,
+            'time': 24,
+            'quantity': 9,
+            'hidden': true,
+            'player_unlock_id': 6,
+            'id': 15
+        },
+        {
+            'name': 'Caterium Wire (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 2,
+                    'quantity': 1
+                }
+            ],
+            'machine_class_id': 2,
+            'item_id': 9,
+            'time': 4,
+            'quantity': 8,
+            'hidden': true,
+            'player_unlock_id': 2,
+            'id': 16
+        },
+        {
+            'name': 'Cable',
+            'inputs': [
+                {
+                    'item_id': 9,
+                    'quantity': 2
+                }
+            ],
+            'machine_class_id': 2,
+            'item_id': 10,
+            'time': 2,
+            'quantity': 1,
+            'hidden': false,
+            'id': 17
+        },
+        {
+            'name': 'Concrete',
+            'inputs': [
+                {
+                    'item_id': 48,
+                    'quantity': 3
+                }
+            ],
+            'machine_class_id': 2,
+            'item_id': 11,
+            'time': 4,
+            'quantity': 1,
+            'hidden': false,
+            'id': 18
+        }, 
+        {
+            'name': 'Steel Beam',
+            'inputs': [
+                {
+                    'item_id': 4,
+                    'quantity': 4
+                }
+            ],
+            'machine_class_id': 2,
+            'item_id': 15,
+            'time': 4,
+            'quantity': 1,
+            'hidden': false,
+            'id': 30
+        },
+        {
+            'name': 'Steel Pipe',
+            'inputs': [
+                {
+                    'item_id': 4,
+                    'quantity': 3
+                }
+            ],
+            'machine_class_id': 2,
+            'item_id': 16,
+            'time': 6,
+            'quantity': 2,
+            'hidden': false,
+            'id': 31
+        },
+        {
+            'name': 'Quickwire',
+            'inputs': [
+                {
+                    'item_id': 16,
+                    'quantity': 1
+                }
+            ],
+            'machine_class_id': 2,
+            'item_id': 17,
+            'time': 5,
+            'quantity': 5,
+            'hidden': false,
+            'id': 32
+        },
+
+        // ASSEMBLER
+        {
+            'name': 'Reinforced Iron Plate',
+            'inputs': [
+                {
+                    'item_id': 6,
+                    'quantity': 6
+                },
+                {
+                    'item_id': 8,
+                    'quantity': 12
+                }
+            ],
+            'machine_class_id': 3,
+            'item_id': 20,
+            'time': 12,
+            'quantity': 1,
+            'hidden': false,
+            'id': 19
+        },
+        {
+            'name': 'Reinforced Iron Plate (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 6,
+                    'quantity': 16
+                },
+                {
+                    'item_id': 8,
+                    'quantity': 250
+                }
+            ],
+            'machine_class_id': 3,
+            'item_id': 20,
+            'time': 12,
+            'quantity': 3,
+            'hidden': true,
+            'player_unlock_id': 0,
+            'id': 20
+        },
+        {
+            'name': 'Stitched Iron Plate (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 6,
+                    'quantity': 10
+                },
+                {
+                    'item_id': 9,
+                    'quantity': 26
+                }
+            ],
+            'machine_class_id': 3,
+            'item_id': 20,
+            'time': 32,
+            'quantity': 3,
+            'hidden': true,
+            'player_unlock_id': 1,
+            'id': 21
+        },
+        {
+            'name': 'Rotor',
+            'inputs': [
+                {
+                    'item_id': 7,
+                    'quantity': 5
+                },
+                {
+                    'item_id': 8,
+                    'quantity': 25
+                }
+            ],
+            'machine_class_id': 3,
+            'item_id': 14,
+            'time': 15,
+            'quantity': 1,
+            'hidden': false,
+            'id': 22
+        },
+        {
+            'name': 'Rotor (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 20,
+                    'quantity': 2
+                },
+                {
+                    'item_id': 9,
+                    'quantity': 12
+                }
+            ],
+            'machine_class_id': 3,
+            'item_id': 14,
+            'time': 12,
+            'quantity': 1,
+            'hidden': true,
+            'player_unlock_id': 8,
+            'id': 23
+        },
+        {
+            'name': 'Modular Frame',
+            'inputs': [
+                {
+                    'item_id': 20,
+                    'quantity': 3
+                },
+                {
+                    'item_id': 7,
+                    'quantity': 12
+                }
+            ],
+            'machine_class_id': 3,
+            'item_id': 21,
+            'time': 60,
+            'quantity': 2,
+            'hidden': false,
+            'id': 24
+        },
+        {
+            'name': 'Modular Frame (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 20,
+                    'quantity': 2
+                },
+                {
+                    'item_id': 20,
+                    'quantity': 10
+                }
+            ],
+            'machine_class_id': 3,
+            'item_id': 21,
+            'time': 60,
+            'quantity': 3,
+            'hidden': true,
+            'player_unlock_id': 7,
+            'id': 25
+        },
+        {
+            'name': 'Encased Industrial Beam',
+            'inputs': [
+                {
+                    'item_id': 15,
+                    'quantity': 4
+                },
+                {
+                    'item_id': 11,
+                    'quantity': 5
+                }
+            ],
+            'machine_class_id': 3,
+            'item_id': 21,
+            'time': 10,
+            'quantity': 1,
+            'hidden': false,
+            'id': 26
+        },
+        {
+            'name': 'Encased Industrial Beam (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 20,
+                    'quantity': 7
+                },
+                {
+                    'item_id': 11,
+                    'quantity': 5
+                }
+            ],
+            'machine_class_id': 3,
+            'item_id': 21,
+            'time': 15,
+            'quantity': 1,
+            'hidden': true,
+            'player_unlock_id': 3,
+            'id': 27
+        },
+        {
+            'name': 'Heavy Modular Frame',
+            'inputs': [
+                {
+                    'item_id': 21,
+                    'quantity': 5
+                },
+                {
+                    'item_id': 21,
+                    'quantity': 5
+                },
+                {
+                    'item_id': 20,
+                    'quantity': 15
+                },
+                {
+                    'item_id': 8,
+                    'quantity': 100
+                }
+            ],
+            'machine_class_id': 4,
+            'item_id': 23,
+            'time': 30,
+            'quantity': 1,
+            'hidden': false,
+            'id': 28
+        },
+        {
+            'name': 'Heavy Modular Frame (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 7,
+                    'quantity': 8
+                },
+                {
+                    'item_id': 21,
+                    'quantity': 10
+                },
+                {
+                    'item_id': 20,
+                    'quantity': 36
+                },
+                {
+                    'item_id': 11,
+                    'quantity': 22
+                }
+            ],
+            'machine_class_id': 4,
+            'item_id': 23,
+            'time': 64,
+            'quantity': 3,
+            'hidden': true,
+            'player_unlock_id': 4,
+            'id': 29
+        },
+       
+        {
+            'name': 'Quickwire (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 16,
+                    'quantity': 1
+                },
+                {
+                    'item_id': 5,
+                    'quantity': 2
+                }
+            ],
+            'machine_class_id': 3,
+            'item_id': 17,
+            'time': 8,
+            'quantity': 12,
+            'hidden': true,
+            'player_unlock_id': 12,
+            'id': 33
+        },
+        {
+            'name': 'Motor',
+            'inputs': [
+                {
+                    'item_id': 14,
+                    'quantity': 2
+                },
+                {
+                    'item_id': 22,
+                    'quantity': 2
+                }
+            ],
+            'machine_class_id': 3,
+            'item_id': 24,
+            'time': 12,
+            'quantity': 1,
+            'hidden': false,
+            'id': 34
+        },
+        {
+            'name': 'Biofuel',
+            'inputs': [
+                {
+                    'item_id': 50,
+                    'quantity': 4
+                }
+            ],
+            'machine_class_id': 2,
+            'item_id': 51,
+            'time': 4,
+            'quantity': 2,
+            'hidden': false,
+            'id': 35
+        },
+        {
+            'name': 'A.I. Limiter',
+            'inputs': [
+                {
+                    'item_id': 35,
+                    'quantity': 1
+                },
+                {
+                    'item_id': 17,
+                    'quantity': 18
+                }
+            ],
+            'machine_class_id': 3,
+            'item_id': 37,
+            'time': 12,
+            'quantity': 1,
+            'hidden': false,
+            'id': 36
+        },
+        {
+            'name': 'Circuit Board',
+            'inputs': [
+                {
+                    'item_id': 9,
+                    'quantity': 12
+                },
+                {
+                    'item_id': 32,
+                    'quantity': 6
+                }
+            ],
+            'machine_class_id': 3,
+            'item_id': 35,
+            'time': 12,
+            'quantity': 1,
+            'hidden': false,
+            'id': 37
+        },
+        {
+            'name': 'Circuit Board (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 34,
+                    'quantity': 16
+                },
+                {
+                    'item_id': 9,
+                    'quantity': 24
+                }
+            ],
+            'machine_class_id': 3,
+            'item_id': 35,
+            'time': 24,
+            'quantity': 3,
+            'player_unlock_id': 14,
+            'hidden': false,
+            'id': 38
+        },
+        {
+            'name': 'Caterium Circuit Board (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 32,
+                    'quantity': 12
+                },
+                {
+                    'item_id': 17,
+                    'quantity': 32
+                }
+            ],
+            'machine_class_id': 3,
+            'item_id': 35,
+            'time': 24,
+            'quantity': 3,
+            'player_unlock_id': 15,
+            'hidden': false,
+            'id': 39
+        },
+        {
+            'name': 'Rubber Cable',
+            'inputs': [
+                {
+                    'item_id': 9,
+                    'quantity': 3
+                },
+                {
+                    'item_id': 34,
+                    'quantity': 2
+                }
+            ],
+            'machine_class_id': 3,
+            'item_id': 10,
+            'time': 8,
+            'quantity': 10,
+            'player_unlock_id': 13,
+            'hidden': false,
+            'id': 40
+        },
+        {
+            'name': 'Computer',
+            'inputs': [
+                {
+                    'item_id': 35,
+                    'quantity': 5
+                },
+                {
+                    'item_id': 10,
+                    'quantity': 12
+                },
+                {
+                    'item_id': 32,
+                    'quantity': 18
+                },
+                {
+                    'item_id': 8,
+                    'quantity': 60
+                }
+            ],
+            'machine_class_id': 4,
+            'item_id': 36,
+            'time': 32,
+            'quantity': 1,
+            'hidden': false,
+            'id': 41
+        },
+        {
+            'name': 'Caterium Computer',
+            'inputs': [
+                {
+                    'item_id': 17,
+                    'quantity': 112
+                },
+                {
+                    'item_id': 35,
+                    'quantity': 10
+                },
+                {
+                    'item_id': 34,
+                    'quantity': 48
+                }
+            ],
+            'machine_class_id': 4,
+            'item_id': 36,
+            'time': 64,
+            'quantity': 3,
+            'player_unlock_id': 16,
+            'hidden': false,
+            'id': 42
+        },
+        {
+            'name': 'Supercomputer',
+            'inputs': [
+                {
+                    'item_id': 36,
+                    'quantity': 2
+                },
+                {
+                    'item_id': 37,
+                    'quantity': 2
+                },
+                {
+                    'item_id': 39,
+                    'quantity': 3
+                },
+                {
+                    'item_id': 32,
+                    'quantity': 21
+                }
+            ],
+            'machine_class_id': 4,
+            'item_id': 38,
+            'time': 32,
+            'quantity': 1,
+            'hidden': false,
+            'id': 43
+        },
+        {
+            'name': 'High-Speed Connector',
+            'inputs': [
+                {
+                    'item_id': 17,
+                    'quantity': 40
+                },
+                {
+                    'item_id': 10,
+                    'quantity': 10
+                },
+                {
+                    'item_id': 32,
+                    'quantity': 6
+                }
+            ],
+            'machine_class_id': 4,
+            'item_id': 39,
+            'time': 24,
+            'quantity': 1,
+            'hidden': false,
+            'id': 44
+        },
+        {
+            'name': 'Fuel',
+            'inputs': [
+                {
+                    'item_id': 25,
+                    'quantity': 8
+                }
+            ],
+            'machine_class_id': 5,
+            'item_id': 33,
+            'time': 8,
+            'quantity': 5,
+            'hidden': false,
+            'id': 45
+        },
+        {
+            'name': 'Plastic',
+            'inputs': [
+                {
+                    'item_id': 25,
+                    'quantity': 4
+                }
+            ],
+            'machine_class_id': 5,
+            'item_id': 32,
+            'time': 8,
+            'quantity': 3,
+            'hidden': false,
+            'id': 46
+        },
+        {
+            'name': 'Rubber',
+            'inputs': [
+                {
+                    'item_id': 25,
+                    'quantity': 4
+                }
+            ],
+            'machine_class_id': 5,
+            'item_id': 34,
+            'time': 8,
+            'quantity': 4,
+            'hidden': false,
+            'id': 47
+        },
+        {
+            'name': 'Stator',
+            'inputs': [
+                {
+                    'item_id': 20,
+                    'quantity': 3
+                },
+                {
+                    'item_id': 9,
+                    'quantity': 10
+                }
+            ],
+            'machine_class_id': 3,
+            'item_id': 22,
+            'time': 10,
+            'quantity': 1,
+            'hidden': false,
+            'id': 48
+        },
+        {
+            'name': 'Stator (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 20,
+                    'quantity': 6
+                },
+                {
+                    'item_id': 17,
+                    'quantity': 25
+                }
+            ],
+            'machine_class_id': 3,
+            'item_id': 22,
+            'time': 20,
+            'quantity': 3,
+            'player_unlock_id': 9,
+            'hidden': false,
+            'id': 49
+        },
+        {
+            'name': 'Battery',
+            'inputs': [
+                {
+                    'item_id': 42,
+                    'quantity': 8
+                },
+                {
+                    'item_id': 27,
+                    'quantity': 20
+                },
+                {
+                    'item_id': 32,
+                    'quantity': 9
+                },
+                {
+                    'item_id': 9,
+                    'quantity': 24
+                }
+            ],
+            'machine_class_id': 4,
+            'item_id': 46,
+            'time': 32,
+            'quantity': 3,
+            'hidden': false,
+            'id': 50
+        },
+        {
+            'name': 'Compacted Coal (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 3,
+                    'quantity': 3
+                },
+                {
+                    'item_id': 27,
+                    'quantity': 3
+                }
+            ],
+            'machine_class_id': 3,
+            'item_id': 53,
+            'time': 6,
+            'quantity': 3,
+            'player_unlock_id': 17,
+            'hidden': false,
+            'id': 51
+        },
+        {
+            'name': 'Silica (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 26,
+                    'quantity': 4
+                },
+                {
+                    'item_id': 2,
+                    'quantity': 2
+                }
+            ],
+            'machine_class_id': 3,
+            'item_id': 30,
+            'time': 8,
+            'quantity': 9,
+            'player_unlock_id': 18,
+            'hidden': false,
+            'id': 52
+        },
+        {
+            'name': 'Quartz Crystal',
+            'inputs': [
+                {
+                    'item_id': 26,
+                    'quantity': 2
+                }
+            ],
+            'machine_class_id': 2,
+            'item_id': 55,
+            'time': 4,
+            'quantity': 1,
+            'hidden': false,
+            'id': 53
+        },
+        {
+            'name': 'Quantum Crystal',
+            'inputs': [
+                {
+                    'item_id': 55,
+                    'quantity': 6
+                },
+                {
+                    'item_id': 56,
+                    'quantity': 12
+                }
+            ],
+            'machine_class_id': 3,
+            'item_id': 47,
+            'time': 24,
+            'quantity': 1,
+            'hidden': false,
+            'id': 54
+        },
+        {
+            'name': 'Crystal Oscillator (Alt.)',
+            'inputs': [
+                {
+                    'item_id': 55,
+                    'quantity': 20
+                },
+                {
+                    'item_id': 34,
+                    'quantity': 24
+                },
+                {
+                    'item_id': 37,
+                    'quantity': 1
+                }
+            ],
+            'machine_class_id': 4,
+            'item_id': 54,
+            'time': 64,
+            'quantity': 1,
+            'player_unlock_id': 19,
+            'hidden': false,
+            'id': 55
+        },
+        {
+            'name': 'Crystal Oscillator',
+            'inputs': [
+                {
+                    'item_id': 55,
+                    'quantity': 10
+                },
+                {
+                    'item_id': 10,
+                    'quantity': 14
+                },
+                {
+                    'item_id': 20,
+                    'quantity': 4
+                }
+            ],
+            'machine_class_id': 4,
+            'item_id': 54,
+            'time': 32,
+            'quantity': 1,
+            'hidden': false,
+            'id': 56
+        }
+    ]
 }
 export default globalData;
